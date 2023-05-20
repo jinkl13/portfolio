@@ -1,0 +1,178 @@
+/*.nike-hero-heading{padding-left:20%;}*/
+body{background-color:#000;
+color:#d7d7d7;}
+.nikeheronikestore{font-family: 'nikeheronikestoret', sans-serif;
+				   font-style:italic;
+				   text-transform: uppercase;
+				   font-weight: 1000;
+				   font-size:70px;
+				   line-height: 0.75;
+				   padding-left:20px;
+				   padding-right:20px;}
+
+#nhnsone{padding-left: 16px;
+	font-size: 100px;}	
+				   
+@font-face {
+  font-family: 'nikeheronikestore';
+  src: url('assets/fonts/robotoflex.ttf') format('truetype');
+}
+
+.heroh1{margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #000;}
+
+#hero::before{background-image: linear-gradient(transparent, black);}
+#hero p span {
+    background: linear-gradient( #888, #B3B3B3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+
+@media(max-width:569px) {
+    .nike-hero-heading{ width:74%;padding-left:96px;
+   				              }
+}
+@media (min-width:768px) and (max-width:992px) {
+    .nike-hero-heading{ width:74%;
+   				              }
+}
+
+.section-title h2{text-transform:none;
+									font-size:72px;
+									color: #6DD1C6;}
+.section-title span{font-size:80px;
+										color:#fff;}
+
+
+@media (min-width:768px){
+	.section-title{font-size:24px;}}
+
+@media (min-width: 576px) and (max-width:768px){
+	.section-title{font-size:32px;}}										
+
+.nike-sample-desc p{text-align: center;
+										font-size:24px;
+										margin-top:56px;
+										margin-bottom:56px}
+
+.font-24{
+	font-size:24px;
+	font-weight:none;
+}
+.font-36{
+	font-size:36px;
+	font-weight:none;
+}
+.font-48{
+	font-size:48px;
+	font-weight:none;
+}
+
+.desgn-regltns{border-radius:10px;
+							color:#000;
+							cursor:pointer;
+							trasnsition:color 0.4s linear;
+							position:relative;
+							border:1px;
+							margin-top: 60px;
+							}
+
+.desgn-regltns:hover{color:#d7d7d7;}
+
+.desgn-regltns::before{
+	border-color: #fff;
+	border-radius: 10px;
+	content:"";
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:#6dd1c6;
+	z-index: -1;
+	transition:transform 0.5s;
+	transform-origin:0 0;
+	transition-timing-function: cubic bezeir(0.5,1.6,0.4,0.7);
+	transform: scaleX(1);
+}
+.desgn-regltns::after{
+	border-color: #fff;
+	border-radius: 10px;
+	content:"";
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:#21b6a8;
+	z-index: -1;
+	transition:transform 0.5s;
+	transform-origin:0 0;
+	transition-timing-function: cubic bezeir(0.5,1.6,0.4,0.7);
+	transform: scaleX(0);
+}
+
+.desgn-regltns:hover::after{
+	transform: scaleX(1);
+}
+
+.prob-section h2 {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #fff;
+}
+
+.prob-section-head h2 {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #fff;
+}
+
+.prob-section-head span{color:#6DD1C6}
+
+.prob-section p {font-size:24px;}
+
+.prob-section img{height:500px;}
+
+
+.prob-desc{display: flex;
+  justify-content: center; /* horizontally centers the child elements */
+  align-items: center;}
+.prob-desc p{font-size:32px;}
+.prob-desc span{
+	font-size:40px;
+	font-weight:1000;
+	text-transform:uppercase;}
+
+	.flicker {color:#d7d7d7;
+  animation: flicker 2s infinite;
+}
+
+@keyframes flicker {
+  0%, 19.999%, 22%, 44.001%, 62.999%, 64%, 85.999%, 94%, 100% {
+    color:#d7d7d7;
+    text-shadow: 0 0 5px #d7d7d7;
+  }
+  34.001%, 62.999% {
+    color: darkred;
+    text-shadow: 0 0 5px darkred;
+  }
+}
+.mt-52{margin-top: 52px;}
+
+.prob-const img{height:100px;}
+.red{color:#b80909;}
+.green{color:#01c663;}
+
+.prob-desc ol{font-size: 24px;}
+
+}
+.services .icon-box1 {border-radius: 20px;}
